@@ -1,0 +1,5 @@
+from app.utils.constants import SQLALCHEMY_DB_URI, JWT_SECRET_KEY
+
+class Config:
+    SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DB_URI
+    JWT_SECRET_KEY = JWT_SECRET_KEY
