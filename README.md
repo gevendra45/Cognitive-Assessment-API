@@ -84,4 +84,4 @@ docker build -t cognitive-api .
 
 ### Run the container using below command
 
-docker run -d -p 5000:5000 --name cognitive-api cognitive-api
+docker run -d -p 5050:5000 --name cognitive-api cognitive-api
